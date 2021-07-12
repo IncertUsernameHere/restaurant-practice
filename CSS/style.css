@@ -23,10 +23,15 @@ div {
 
 h1 {
 	font-size: 2em;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 10px;
 }
 
 h2 {
-	font-size: 1.5em
+	font-size: 1.5em;
+	margin: 10px;
+	text-decoration: underline;
 }
 
 h3 {
@@ -78,6 +83,7 @@ h3 {
 
 .order-button:hover {
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .order-button:active {
@@ -86,6 +92,8 @@ h3 {
 
 p {
 	margin-bottom: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 a {

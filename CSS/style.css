@@ -29,23 +29,59 @@ h2 {
 	font-size: 1.5em
 }
 
-a.button {
+h3 {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.menu-item {
+	box-sizing: border-box;
+	min-height: 160px;
+	padding: 10px;
+	margin: 18px;
+	border: solid black 3px;
+}
+
+.menu-item img {
+	float: left;
+	margin: 10px;
+}
+
+.button {
 	display: inline-block;
 	border-style: outset;
 	font-size: 25px;
-	width: 40%;
-	height: 200px;
 	margin: 15px;
-	padding: 15px
+	padding: 15px;
+	color: white;
 }
 
-a.button:hover {
+.button:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
 
-a.button:active {
+.button:active {
 	border-style: inset;
+}
+
+.order-button {
+	display: inline-block;
+	border: solid black 3px;
+	border-radius: 5px;
+	width: 90%;
+	background-color: lightskyblue;
+	clear: left;
+}
+
+.order-button:hover {
+	text-decoration: none;
+}
+
+.order-button:active {
+	background-color: lightblue;
 }
 
 p {
@@ -84,6 +120,8 @@ li {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: left;
+	width: 40%;
+	height: 200px;
 }
 
 #salads-button {
@@ -92,7 +130,8 @@ li {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: left;
-	color: white;
+	width: 40%;
+	height: 200px;
 }
 
 #wings-button {
@@ -101,7 +140,8 @@ li {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: right;
-	color: white;
+	width: 40%;
+	height: 200px;
 }
 
 #drinks-button {
@@ -110,7 +150,8 @@ li {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: right;
-	color: white;
+	width: 40%;
+	height: 200px;
 }
 
 @media (min-width: 922px) {

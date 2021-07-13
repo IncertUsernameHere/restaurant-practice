@@ -1,4 +1,5 @@
-/** Desktop 922 and above **/
+/** Too big 1313 and up **/
+/** Desktop 922 to 1312 **/
 /** Tablet 689 to 991 **/
 /** Phone 688 and below **/
 
@@ -162,6 +163,34 @@ li {
 	height: 200px;
 }
 
-@media (min-width: 922px) {
+@media (min-width: 1313px) {
+	
+}
 
+@media (min-width: 922px) and (max-width: 1312px) {
+	section {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.menu-item {
+		display: inline-block;
+		width: 45%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	
+	.whole-line {
+		display: inline-block;
+		width: fit-content;
+		margin-left: 2.75%;
+		margin-right: 2.75%;
+	}
+
+	h2 {
+		text-align: left;
+	}
+
+	p {
+		text-align: justify;
+	}
 }

@@ -262,8 +262,45 @@ li {
 	ul {
 		text-align: center;
 	}
+}
 
 @media (max-width: 414px) {
+	#title-image {
+		width: 95%;
+		height: auto;
+	}
+
+	#header-image {
+		width: 75px;
+		height: 75px;
+	}
 	
+	#phone-number {
+		float: none;
+		font-size: 25px;
+	}
+
+	li {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.button {
+		height: 60px;
+		margin: 0;
+	}
+
+	.menu-item {
+		text-align: center;
+	}
+
+	.menu-item img {
+		float: none;
+		display: inline-block;
+		width: 45%;
+		height: 65px;
+	}
+	span {
+		display: inline-block;
 	}
 }

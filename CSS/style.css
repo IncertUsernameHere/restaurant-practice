@@ -11,6 +11,11 @@
 	font-weight: normal;
 }
 
+p span {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 header {
 	box-shadow: 5px 5px 20px;
 	margin-bottom: 25px;

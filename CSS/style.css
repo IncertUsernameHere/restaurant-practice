@@ -1,7 +1,7 @@
-/** Too big 1313 and up **/
-/** Desktop 922 to 1312 **/
-/** Tablet 689 to 991 **/
-/** Phone 688 and below **/
+/** Too big 1200 and up **/
+/** Desktop 922 to 1199 **/
+/** Tablet 851 to 991 **/
+/** Phone 850 and below **/
 
 * {
 	margin: 0;
@@ -160,23 +160,52 @@ li {
 	width: 40%;
 }
 
-@media (min-width: 1313px) {
+@media (min-width: 1200px) {
+	.menu-item {
+		display: inline-block;
+		width: 30%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
 	
+	.two-liner-xl {
+		width: 45%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.one-liner-xl {
+		width: 95%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+
+	section {
+		text-align: center;
+	}
+
+	h2 {
+		text-align: left;
+	}
+
+	p {
+		text-align: justify;
+	}
 }
 
-@media (min-width: 922px) and (max-width: 1312px) {
+@media (min-width: 922px) and (max-width: 1199px) {
 	section {
 		text-align: center;
 		margin-bottom: 50px;
 	}
 	.menu-item {
 		display: inline-block;
-		width: 45%;
-		margin-left: 2%;
-		margin-right: 2%;
+		width: 46%;
+		margin-left: 1%;
+		margin-right: 1%;
 	}
 	
-	.whole-line {
+	.whole-line-l {
 		display: inline-block;
 		width: fit-content;
 		margin-left: 2.75%;
@@ -194,19 +223,47 @@ li {
 
 @media (min-width: 689px) and (max-width: 991px) {
 	.menu-item img {
-		width: 50px;
-		height: 50px;
+		width: 75px;
+		height: 75px;
+	}
+
+	.button {
+		height: 150px;
 	}
 }
 
 @media (min-width: 415px) and (max-width: 688px) {
-	.button {
-		margin: 0px;
-		height: 100px;
+
+	.menu-item img {
+		width: 75px;
+		height: 75px;
 	}
+
+	#header-image {
+		width: 75px;
+		height: 75px;
+	}
+
+	#title-image {
+		width: 95%;
+		height: auto;
+	}
+
+	.button {
+		height: 100px;
+		margin: 0;
+	}
+
+	#phone-number {
+		font-size: 25px;
+		float: none;
+	}
+
+	ul {
+		text-align: center;
+	}
+
+@media (max-width: 414px) {
 	
-	div > img {
-		width: 350px;
-		height: 250px;
 	}
 }

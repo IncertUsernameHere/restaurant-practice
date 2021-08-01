@@ -5,8 +5,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="CSS/style.css">
 	<title>Pizza Point Checkout</title>
+    <script src="JavaScript/ajax-utils.js"></script>
+    <script src="JavaScript/cart.js"></script>
 </head>
 <body>
-
+    <header>
+        <div id="phone-number">202-555-0163</div>
+        <img src="https://cdn.pixabay.com/photo/2021/02/15/19/02/badge-6018828_960_720.png" width="125" height="125" id="header-image">
+        <ul>
+            <li><a href="index.html#about-us">About Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" id="cart">Menu</a></li>
+        </ul>
+    </header>
+    <h1>Cart</h1>
+    <div class="order-summary two-liner"></div>
+    <div class="two-liner">
+        <form>
+            <div class="information">
+                <h2>Name</h2>
+                <input class="two-liner" placeholder="First Name" required>
+                <input class="two-liner" placeholder="Last Name" required>
+            </div>
+            <div class="information">
+                <h2>Location</h2>
+                <input class="one-liner" placeholder="Zip/Postal Code" required>
+            </div>
+            <div class="information">
+                <h2>Payment</h2>
+                <div>*Note: Please keep in mind that this is a <span class="important">FAKE</span> website, so please do not enter any sensitive information here.*</div>
+                <input class="one-liner payment" placeholder="Card Number" required>
+                <input class="two-liner payment" placeholder="Experation Date" required>
+                <input class="two-liner payment" placeholder="Security Code" required>
+                <input type="checkbox" id="cash-payment">
+                <label for="cash-payment">Pay With Cash</label>
+            </div>
+            <button type="submit" class="order-button">Order Now</button>
+        </form>
+    </div>
 </body>
 <html>

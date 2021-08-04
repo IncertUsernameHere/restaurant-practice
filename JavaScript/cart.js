@@ -14,7 +14,7 @@ window.onload = function() {
         for (var i = 0; i < dotNum; i++) {
             orderItem += ".";
         }
-        orderItem += "$" + price + ".00</div>";
+        orderItem += "<div class='order-total'>$" + price + ".00</div>";
         orderSummary.innerHTML += orderItem;
         return price;
     }
